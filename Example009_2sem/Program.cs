@@ -1,4 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿// Напишите программу, которая выводит случайное трехзначное число и удаляет вторую цифру этого числа.
+
 Console.Clear();
 
 int num = new Random().Next(100, 1000);

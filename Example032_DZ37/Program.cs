@@ -12,18 +12,22 @@ int[] GetArray(int size, int minValue, int maxValue)
 int Result(int[] inArray)
 {
     int count = 0;
-    for (int i = 1; i < inArray.Length; i++)
+    for (int i = 0; i < inArray.Length; i++)
+
     {
-        if (inArray[i] % 2 == 0)
+        if (i % 2 != 0)
         {
-            count++;
+            count += inArray[i];
         }
+
     }
+
     return count;
 }
-int[] array = GetArray(10, 100, 999);
+int[] array = GetArray(10, -10, 10);
 Console.WriteLine(String.Join(", ", array));
 int count = Result(array);
 Console.WriteLine(count);
+
 
 

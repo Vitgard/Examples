@@ -12,7 +12,7 @@ int[] GetArray(int size, int minValue, int maxValue)
 int Result(int[] inArray)
 {
     int count = 0;
-    for (int i = 1; i < inArray.Length; i++)
+    for (int i = 0; i < inArray.Length; i++)
     {
         if (inArray[i] % 2 == 0)
         {

@@ -15,7 +15,7 @@ int Result(int[] inArray)
     for (int i = 0; i < inArray.Length; i++)
 
     {
-        if (i % 2 != 0)
+        if (i % 2 == 0)
         {
             count += inArray[i];
         }

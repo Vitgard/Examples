@@ -31,3 +31,4 @@ y = Math.Round(y, 3);
 Console.WriteLine($"Пересечение в точке: ({x};{y})");
 
 
+

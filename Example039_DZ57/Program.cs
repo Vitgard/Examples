@@ -47,7 +47,7 @@ Console.Write("Введите кол-во строк: ");
 int str = int.Parse(Console.ReadLine()!);
 Console.Write("Введите кол-во столбцов: ");
 int col = int.Parse(Console.ReadLine()!);
-int[,] array = GetArray(str, col, -15, 20);
+int[,] array = GetArray(str, col, -10, 25);
 PrintArray(array);
 ElSum(array);
 
